@@ -10,23 +10,23 @@
   [License](#license)  
   [Questions](#questions)  
   
-  ### Description {:#description}  
+  ### Description 
   This project generates a ReadMe based off of the user's input  
   
-  ### Installation {:#installation}  
+  ### Installation
   This project uses node.js, and inquirer which is installed after node.js is installed. Links to installation below:  
   
-  ### Usage {:#usage}  
+  ### Usage
   ReadMe Generator can be used by anyone who wants a quicker way to create a thorough, polished README  
   
-  ### Contributing {:#contribution}  
+  ### Contributing 
   Anyone may contribute to this project as they see fit  
   
-  ### Testing {:#testing}  
+  ### Testing
   In git bash, type test index.js to see if the changes you made will break the code or not  
   
-  ### License {:#license}  
+  ### License
   
-  ### Questions? {:#questions}  
+  ### Questions?
 
   
