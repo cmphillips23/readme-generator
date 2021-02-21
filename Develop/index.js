@@ -12,10 +12,10 @@ const promptUser = () => {
             message: 'Enter the title of your project',
             validate: nameInput => {
                 if (nameInput) {
-                return true;
+                    return true;
                 } else {
-                console.log('Please enter the title of your project');
-                return false;
+                    console.log('Please enter the title of your project');
+                    return false;
                 }
             }
         },
@@ -25,10 +25,10 @@ const promptUser = () => {
             message: 'Enter a description of your project',
             validate: nameInput => {
                 if (nameInput) {
-                return true;
+                    return true;
                 } else {
-                console.log('Please enter project description');
-                return false;
+                    console.log('Please enter project description');
+                    return false;
                 }
             }
         },
@@ -38,10 +38,10 @@ const promptUser = () => {
             message: 'Enter installation instructions',
             validate: nameInput => {
                 if (nameInput) {
-                return true;
+                    return true;
                 } else {
-                console.log('Please enter installation instructions');
-                return false;
+                    console.log('Please enter installation instructions');
+                    return false;
                 }
             }
         },
@@ -51,10 +51,10 @@ const promptUser = () => {
             message: 'Enter usage information',
             validate: nameInput => {
                 if (nameInput) {
-                return true;
+                    return true;
                 } else {
-                console.log('Please enter usage information');
-                return false;
+                    console.log('Please enter usage information');
+                    return false;
                 }
             }
         },
@@ -64,10 +64,10 @@ const promptUser = () => {
             message: 'Enter contribution guidelines',
             validate: nameInput => {
                 if (nameInput) {
-                return true;
+                    return true;
                 } else {
-                console.log('Please enter contribution guidelines');
-                return false;
+                    console.log('Please enter contribution guidelines');
+                    return false;
                 }
             }
         },
@@ -77,10 +77,10 @@ const promptUser = () => {
             message: 'Enter instructions on how to test your project',
             validate: nameInput => {
                 if (nameInput) {
-                return true;
+                    return true;
                 } else {
-                console.log('Please enter test instructions');
-                return false;
+                    console.log('Please enter test instructions');
+                    return false;
                 }
             }
         },
@@ -88,7 +88,33 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'Choose a license for your project:',
-            choices: ['MIT', 'GNU General Public License 3.0', 'GNU Lesser General Public License 3.0', 'Apache', 'ISC', 'Mozilla Public License 2.0']
+            choices: ['MIT', 'GNU GPL 3.0', 'GNU LGPL 3.0', 'Apache', 'ISC', 'Mozilla Public License 2.0']
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Enter your github username',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter a github username');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email address',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an email address');
+                    return false;
+                }
+            }
         }
     ])
 };
@@ -101,10 +127,7 @@ const writeToFile = (fileName, data) => {
                 reject(err);
                 return;
             }
-            resolve({
-                ok: true,
-                message: 'Your custom README has been created!'
-            });
+            resolve('Your custom README has been created!')
         });
     });
 };

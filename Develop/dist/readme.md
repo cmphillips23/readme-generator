@@ -1,5 +1,5 @@
 
-  # ReadMe Generator  
+  # title  
   
   ## Contents  
   [Description](#description)  
@@ -10,23 +10,26 @@
   [License](#license)  
   [Questions](#questions)  
   
-  ### Description 
-  This project generates a ReadMe based off of the user's input  
+  ### Description {#description}  
+  desc  
   
-  ### Installation
-  This project uses node.js, and inquirer which is installed after node.js is installed. Links to installation below:  
+  ### Installation {#installation}  
+  instructions  
   
-  ### Usage
-  ReadMe Generator can be used by anyone who wants a quicker way to create a thorough, polished README  
+  ### Usage {#usage}  
+  info  
   
-  ### Contributing 
-  Anyone may contribute to this project as they see fit  
+  ### Contributing {#contribution}  
+  guidelines  
   
-  ### Testing
-  In git bash, type test index.js to see if the changes you made will break the code or not  
+  ### Testing {#testing}  
+  test  
   
-  ### License
-  
-  ### Questions?
+  ### License {#license}  
+  GNU LGPL 3.0
+  For more information on this license, visit this page: <https://opensource.org/licenses/MPL-2.0>
+
+  ### Questions? {#questions} 
+  If you have any further questions, you can reach me via email at <email>.  Also, check out my work on github! <https://github.com/cmphillips23>
 
   
