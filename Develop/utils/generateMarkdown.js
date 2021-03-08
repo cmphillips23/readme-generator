@@ -54,26 +54,26 @@ const generateMarkdown = data => {
   [License](#license)  
   [Questions](#questions)  
   
-  ### Description {#description}  
+  ### Description
   ${data.description}  
   
-  ### Installation {#installation}  
+  ### Installation
   ${data.installation}  
   
-  ### Usage {#usage}  
+  ### Usage
   ${data.usage}  
   
-  ### Contributing {#contribution}  
+  ### Contributing
   ${data.contribution}  
   
-  ### Testing {#testing}  
+  ### Testing 
   ${data.test}  
   
-  ### License {#license}  
+  ### License
   ${data.license}
   For more information on this license, visit this page: <${licenseLink}>
 
-  ### Questions? {#questions} 
+  ### Questions?
   If you have any further questions, you can reach me via email at <${data.email}>.  Also, check out my work on github! <https://github.com/${data.github}>
 
   `;
